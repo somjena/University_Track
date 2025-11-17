@@ -39,8 +39,9 @@ const StudentList = () => {
               {students.map((s) => (
                 <tr key={s.id} className="text-center">
                   <td className="border p-2">{s.id}</td>
-                  <td className="border p-2">{s.name}</td>
-                  <td className="border p-2">{s.regdNo}</td>
+                  <td className="border p-2">{s.full_name}</td>
+                  <td className="border p-2">{s.University_Email}</td>
+                   <td className="border p-2">{s.RedgNo}</td>
                 </tr>
               ))}
             </tbody>
