@@ -32,6 +32,7 @@ const StudentList = () => {
               <tr className="bg-gray-200">
                 <th className="border p-2">ID</th>
                 <th className="border p-2">Name</th>
+                <th className="border p-2">University Eamil</th>
                 <th className="border p-2">Regd No</th>
               </tr>
             </thead>
@@ -40,8 +41,8 @@ const StudentList = () => {
                 <tr key={s.id} className="text-center">
                   <td className="border p-2">{s.id}</td>
                   <td className="border p-2">{s.full_name}</td>
-                  <td className="border p-2">{s.University_Email}</td>
-                   <td className="border p-2">{s.RedgNo}</td>
+                  <td className="border p-2">{s.university_mail}</td>
+                   <td className="border p-2">{s.redg_no}</td>
                 </tr>
               ))}
             </tbody>
